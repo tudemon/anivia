@@ -14,6 +14,60 @@
 		E299BC9120E8C7BB00FF908F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E299BC9020E8C7BB00FF908F /* main.m */; };
 		E299BC9C20E8C7BB00FF908F /* AniviaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E299BC9B20E8C7BB00FF908F /* AniviaTests.m */; };
 		E299BCA720E8C7BB00FF908F /* AniviaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E299BCA620E8C7BB00FF908F /* AniviaUITests.m */; };
+		E299BCEE20E93EB300FF908F /* UgOption.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCB720E93EAD00FF908F /* UgOption.c */; };
+		E299BCEF20E93EB300FF908F /* UgJsonrpcSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCBC20E93EAD00FF908F /* UgJsonrpcSocket.c */; };
+		E299BCF020E93EB300FF908F /* UgJsonFile.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCBD20E93EAD00FF908F /* UgJsonFile.c */; };
+		E299BCF120E93EB300FF908F /* UgSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCBF20E93EAE00FF908F /* UgSocket.c */; };
+		E299BCF220E93EB300FF908F /* UgThread.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCC020E93EAE00FF908F /* UgThread.c */; };
+		E299BCF320E93EB300FF908F /* UgJson.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCC120E93EAE00FF908F /* UgJson.c */; };
+		E299BCF420E93EB300FF908F /* UgJsonrpcCurl.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCC220E93EAE00FF908F /* UgJsonrpcCurl.c */; };
+		E299BCF520E93EB300FF908F /* UgRegistry.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCC420E93EAE00FF908F /* UgRegistry.c */; };
+		E299BCF620E93EB300FF908F /* UgFileUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCC520E93EAE00FF908F /* UgFileUtil.c */; };
+		E299BCF720E93EB300FF908F /* UgJson-custom.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCC620E93EAE00FF908F /* UgJson-custom.c */; };
+		E299BCF820E93EB300FF908F /* UgUri.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCC720E93EAE00FF908F /* UgUri.c */; };
+		E299BCF920E93EB300FF908F /* UgValue.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCC920E93EAE00FF908F /* UgValue.c */; };
+		E299BCFA20E93EB300FF908F /* UgJsonrpc.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCCE20E93EAF00FF908F /* UgJsonrpc.c */; };
+		E299BCFB20E93EB300FF908F /* UgData.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCD520E93EB000FF908F /* UgData.c */; };
+		E299BCFC20E93EB300FF908F /* UgSLink.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCD720E93EB000FF908F /* UgSLink.c */; };
+		E299BCFD20E93EB300FF908F /* UgList.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCD820E93EB000FF908F /* UgList.c */; };
+		E299BCFE20E93EB300FF908F /* UgEntry.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCDA20E93EB000FF908F /* UgEntry.c */; };
+		E299BCFF20E93EB300FF908F /* UgArray.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCDD20E93EB100FF908F /* UgArray.c */; };
+		E299BD0020E93EB300FF908F /* UgHtmlEntry.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCE020E93EB100FF908F /* UgHtmlEntry.c */; };
+		E299BD0120E93EB300FF908F /* UgString.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCE120E93EB100FF908F /* UgString.c */; };
+		E299BD0220E93EB300FF908F /* UgStdio.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCE220E93EB100FF908F /* UgStdio.c */; };
+		E299BD0320E93EB300FF908F /* UgUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCE320E93EB100FF908F /* UgUtil.c */; };
+		E299BD0420E93EB300FF908F /* UgGroupData.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCE420E93EB100FF908F /* UgGroupData.c */; };
+		E299BD0520E93EB300FF908F /* UgBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCE520E93EB200FF908F /* UgBuffer.c */; };
+		E299BD0620E93EB300FF908F /* UgHtmlFilter.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCE920E93EB200FF908F /* UgHtmlFilter.c */; };
+		E299BD0720E93EB300FF908F /* UgHtml.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCEA20E93EB200FF908F /* UgHtml.c */; };
+		E299BD0820E93EB300FF908F /* UgNode.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BCEB20E93EB200FF908F /* UgNode.c */; };
+		E299BD3A20E93ED100FF908F /* UgetFiles.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD0920E93ECC00FF908F /* UgetFiles.c */; };
+		E299BD3B20E93ED100FF908F /* UgetPluginCurl.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD0A20E93ECC00FF908F /* UgetPluginCurl.c */; };
+		E299BD3C20E93ED100FF908F /* UgetRss.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD0C20E93ECC00FF908F /* UgetRss.c */; };
+		E299BD3D20E93ED100FF908F /* UgetEvent.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD0D20E93ECC00FF908F /* UgetEvent.c */; };
+		E299BD3E20E93ED100FF908F /* UgetPluginMega.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD0E20E93ECC00FF908F /* UgetPluginMega.c */; };
+		E299BD3F20E93ED100FF908F /* UgetAria2.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD0F20E93ECC00FF908F /* UgetAria2.c */; };
+		E299BD4020E93ED100FF908F /* UgetCurl.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD1120E93ECC00FF908F /* UgetCurl.c */; };
+		E299BD4120E93ED100FF908F /* UgetNode.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD1220E93ECD00FF908F /* UgetNode.c */; };
+		E299BD4220E93ED100FF908F /* UgetNode-compare.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD1520E93ECD00FF908F /* UgetNode-compare.c */; };
+		E299BD4320E93ED100FF908F /* UgetApp.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD1620E93ECD00FF908F /* UgetApp.c */; };
+		E299BD4420E93ED100FF908F /* UgetPluginAria2.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD1820E93ECD00FF908F /* UgetPluginAria2.c */; };
+		E299BD4520E93ED100FF908F /* UgetSequence.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD1A20E93ECD00FF908F /* UgetSequence.c */; };
+		E299BD4620E93ED100FF908F /* UgetSite.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD1B20E93ECD00FF908F /* UgetSite.c */; };
+		E299BD4720E93ED100FF908F /* UgetA2cf.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD1C20E93ECD00FF908F /* UgetA2cf.c */; };
+		E299BD4820E93ED100FF908F /* UgetPluginAgent.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD1F20E93ECE00FF908F /* UgetPluginAgent.c */; };
+		E299BD4920E93ED100FF908F /* UgetOption.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD2020E93ECE00FF908F /* UgetOption.c */; };
+		E299BD4A20E93ED100FF908F /* UgetPlugin.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD2220E93ECE00FF908F /* UgetPlugin.c */; };
+		E299BD4B20E93ED100FF908F /* UgetData.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD2620E93ECE00FF908F /* UgetData.c */; };
+		E299BD4C20E93ED100FF908F /* UgetTask.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD2720E93ECE00FF908F /* UgetTask.c */; };
+		E299BD4D20E93ED100FF908F /* UgetNode-filter.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD2820E93ECE00FF908F /* UgetNode-filter.c */; };
+		E299BD4E20E93ED100FF908F /* UgetHash.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD2920E93ECF00FF908F /* UgetHash.c */; };
+		E299BD4F20E93ED100FF908F /* UgetMedia.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD2D20E93ECF00FF908F /* UgetMedia.c */; };
+		E299BD5020E93ED100FF908F /* UgetPluginEmpty.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD2E20E93ECF00FF908F /* UgetPluginEmpty.c */; };
+		E299BD5120E93ED100FF908F /* UgetRpc.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD2F20E93ED000FF908F /* UgetRpc.c */; };
+		E299BD5220E93ED100FF908F /* UgetPluginMedia.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD3320E93ED000FF908F /* UgetPluginMedia.c */; };
+		E299BD5320E93ED100FF908F /* UgetMedia-youtube.c in Sources */ = {isa = PBXBuildFile; fileRef = E299BD3720E93ED000FF908F /* UgetMedia-youtube.c */; };
+		E299BD5620E9405F00FF908F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E299BD5520E9405F00FF908F /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +103,111 @@
 		E299BCA220E8C7BB00FF908F /* AniviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AniviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E299BCA620E8C7BB00FF908F /* AniviaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AniviaUITests.m; sourceTree = "<group>"; };
 		E299BCA820E8C7BB00FF908F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E299BCB720E93EAD00FF908F /* UgOption.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgOption.c; path = uget/uglib/UgOption.c; sourceTree = "<group>"; };
+		E299BCB820E93EAD00FF908F /* UgUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgUtil.h; path = uget/uglib/UgUtil.h; sourceTree = "<group>"; };
+		E299BCB920E93EAD00FF908F /* UgJsonrpcCurl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgJsonrpcCurl.h; path = uget/uglib/UgJsonrpcCurl.h; sourceTree = "<group>"; };
+		E299BCBA20E93EAD00FF908F /* UgArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgArray.h; path = uget/uglib/UgArray.h; sourceTree = "<group>"; };
+		E299BCBB20E93EAD00FF908F /* UgJson-custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UgJson-custom.h"; path = "uget/uglib/UgJson-custom.h"; sourceTree = "<group>"; };
+		E299BCBC20E93EAD00FF908F /* UgJsonrpcSocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgJsonrpcSocket.c; path = uget/uglib/UgJsonrpcSocket.c; sourceTree = "<group>"; };
+		E299BCBD20E93EAD00FF908F /* UgJsonFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgJsonFile.c; path = uget/uglib/UgJsonFile.c; sourceTree = "<group>"; };
+		E299BCBE20E93EAD00FF908F /* UgThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgThread.h; path = uget/uglib/UgThread.h; sourceTree = "<group>"; };
+		E299BCBF20E93EAE00FF908F /* UgSocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgSocket.c; path = uget/uglib/UgSocket.c; sourceTree = "<group>"; };
+		E299BCC020E93EAE00FF908F /* UgThread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgThread.c; path = uget/uglib/UgThread.c; sourceTree = "<group>"; };
+		E299BCC120E93EAE00FF908F /* UgJson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgJson.c; path = uget/uglib/UgJson.c; sourceTree = "<group>"; };
+		E299BCC220E93EAE00FF908F /* UgJsonrpcCurl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgJsonrpcCurl.c; path = uget/uglib/UgJsonrpcCurl.c; sourceTree = "<group>"; };
+		E299BCC320E93EAE00FF908F /* UgJsonFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgJsonFile.h; path = uget/uglib/UgJsonFile.h; sourceTree = "<group>"; };
+		E299BCC420E93EAE00FF908F /* UgRegistry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgRegistry.c; path = uget/uglib/UgRegistry.c; sourceTree = "<group>"; };
+		E299BCC520E93EAE00FF908F /* UgFileUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgFileUtil.c; path = uget/uglib/UgFileUtil.c; sourceTree = "<group>"; };
+		E299BCC620E93EAE00FF908F /* UgJson-custom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "UgJson-custom.c"; path = "uget/uglib/UgJson-custom.c"; sourceTree = "<group>"; };
+		E299BCC720E93EAE00FF908F /* UgUri.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgUri.c; path = uget/uglib/UgUri.c; sourceTree = "<group>"; };
+		E299BCC820E93EAE00FF908F /* UgHtmlFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgHtmlFilter.h; path = uget/uglib/UgHtmlFilter.h; sourceTree = "<group>"; };
+		E299BCC920E93EAE00FF908F /* UgValue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgValue.c; path = uget/uglib/UgValue.c; sourceTree = "<group>"; };
+		E299BCCA20E93EAE00FF908F /* UgHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgHtml.h; path = uget/uglib/UgHtml.h; sourceTree = "<group>"; };
+		E299BCCB20E93EAE00FF908F /* UgEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgEntry.h; path = uget/uglib/UgEntry.h; sourceTree = "<group>"; };
+		E299BCCC20E93EAE00FF908F /* UgOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgOption.h; path = uget/uglib/UgOption.h; sourceTree = "<group>"; };
+		E299BCCD20E93EAF00FF908F /* UgList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgList.h; path = uget/uglib/UgList.h; sourceTree = "<group>"; };
+		E299BCCE20E93EAF00FF908F /* UgJsonrpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgJsonrpc.c; path = uget/uglib/UgJsonrpc.c; sourceTree = "<group>"; };
+		E299BCCF20E93EAF00FF908F /* UgGroupData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgGroupData.h; path = uget/uglib/UgGroupData.h; sourceTree = "<group>"; };
+		E299BCD020E93EAF00FF908F /* UgRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgRegistry.h; path = uget/uglib/UgRegistry.h; sourceTree = "<group>"; };
+		E299BCD120E93EAF00FF908F /* UgSLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgSLink.h; path = uget/uglib/UgSLink.h; sourceTree = "<group>"; };
+		E299BCD220E93EAF00FF908F /* UgData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgData.h; path = uget/uglib/UgData.h; sourceTree = "<group>"; };
+		E299BCD320E93EAF00FF908F /* UgUri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgUri.h; path = uget/uglib/UgUri.h; sourceTree = "<group>"; };
+		E299BCD420E93EB000FF908F /* UgValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgValue.h; path = uget/uglib/UgValue.h; sourceTree = "<group>"; };
+		E299BCD520E93EB000FF908F /* UgData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgData.c; path = uget/uglib/UgData.c; sourceTree = "<group>"; };
+		E299BCD620E93EB000FF908F /* UgHtmlEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgHtmlEntry.h; path = uget/uglib/UgHtmlEntry.h; sourceTree = "<group>"; };
+		E299BCD720E93EB000FF908F /* UgSLink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgSLink.c; path = uget/uglib/UgSLink.c; sourceTree = "<group>"; };
+		E299BCD820E93EB000FF908F /* UgList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgList.c; path = uget/uglib/UgList.c; sourceTree = "<group>"; };
+		E299BCD920E93EB000FF908F /* UgNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgNode.h; path = uget/uglib/UgNode.h; sourceTree = "<group>"; };
+		E299BCDA20E93EB000FF908F /* UgEntry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgEntry.c; path = uget/uglib/UgEntry.c; sourceTree = "<group>"; };
+		E299BCDB20E93EB000FF908F /* UgDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgDefine.h; path = uget/uglib/UgDefine.h; sourceTree = "<group>"; };
+		E299BCDC20E93EB100FF908F /* UgSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgSocket.h; path = uget/uglib/UgSocket.h; sourceTree = "<group>"; };
+		E299BCDD20E93EB100FF908F /* UgArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgArray.c; path = uget/uglib/UgArray.c; sourceTree = "<group>"; };
+		E299BCDE20E93EB100FF908F /* UgBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgBuffer.h; path = uget/uglib/UgBuffer.h; sourceTree = "<group>"; };
+		E299BCDF20E93EB100FF908F /* UgJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgJson.h; path = uget/uglib/UgJson.h; sourceTree = "<group>"; };
+		E299BCE020E93EB100FF908F /* UgHtmlEntry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgHtmlEntry.c; path = uget/uglib/UgHtmlEntry.c; sourceTree = "<group>"; };
+		E299BCE120E93EB100FF908F /* UgString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgString.c; path = uget/uglib/UgString.c; sourceTree = "<group>"; };
+		E299BCE220E93EB100FF908F /* UgStdio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgStdio.c; path = uget/uglib/UgStdio.c; sourceTree = "<group>"; };
+		E299BCE320E93EB100FF908F /* UgUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgUtil.c; path = uget/uglib/UgUtil.c; sourceTree = "<group>"; };
+		E299BCE420E93EB100FF908F /* UgGroupData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgGroupData.c; path = uget/uglib/UgGroupData.c; sourceTree = "<group>"; };
+		E299BCE520E93EB200FF908F /* UgBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgBuffer.c; path = uget/uglib/UgBuffer.c; sourceTree = "<group>"; };
+		E299BCE620E93EB200FF908F /* UgJsonrpcSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgJsonrpcSocket.h; path = uget/uglib/UgJsonrpcSocket.h; sourceTree = "<group>"; };
+		E299BCE720E93EB200FF908F /* UgJsonrpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgJsonrpc.h; path = uget/uglib/UgJsonrpc.h; sourceTree = "<group>"; };
+		E299BCE820E93EB200FF908F /* UgString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgString.h; path = uget/uglib/UgString.h; sourceTree = "<group>"; };
+		E299BCE920E93EB200FF908F /* UgHtmlFilter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgHtmlFilter.c; path = uget/uglib/UgHtmlFilter.c; sourceTree = "<group>"; };
+		E299BCEA20E93EB200FF908F /* UgHtml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgHtml.c; path = uget/uglib/UgHtml.c; sourceTree = "<group>"; };
+		E299BCEB20E93EB200FF908F /* UgNode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgNode.c; path = uget/uglib/UgNode.c; sourceTree = "<group>"; };
+		E299BCEC20E93EB200FF908F /* UgFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgFileUtil.h; path = uget/uglib/UgFileUtil.h; sourceTree = "<group>"; };
+		E299BCED20E93EB300FF908F /* UgStdio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgStdio.h; path = uget/uglib/UgStdio.h; sourceTree = "<group>"; };
+		E299BD0920E93ECC00FF908F /* UgetFiles.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetFiles.c; path = uget/uget/UgetFiles.c; sourceTree = "<group>"; };
+		E299BD0A20E93ECC00FF908F /* UgetPluginCurl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetPluginCurl.c; path = uget/uget/UgetPluginCurl.c; sourceTree = "<group>"; };
+		E299BD0B20E93ECC00FF908F /* UgetOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetOption.h; path = uget/uget/UgetOption.h; sourceTree = "<group>"; };
+		E299BD0C20E93ECC00FF908F /* UgetRss.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetRss.c; path = uget/uget/UgetRss.c; sourceTree = "<group>"; };
+		E299BD0D20E93ECC00FF908F /* UgetEvent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetEvent.c; path = uget/uget/UgetEvent.c; sourceTree = "<group>"; };
+		E299BD0E20E93ECC00FF908F /* UgetPluginMega.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetPluginMega.c; path = uget/uget/UgetPluginMega.c; sourceTree = "<group>"; };
+		E299BD0F20E93ECC00FF908F /* UgetAria2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetAria2.c; path = uget/uget/UgetAria2.c; sourceTree = "<group>"; };
+		E299BD1020E93ECC00FF908F /* UgetEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetEvent.h; path = uget/uget/UgetEvent.h; sourceTree = "<group>"; };
+		E299BD1120E93ECC00FF908F /* UgetCurl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetCurl.c; path = uget/uget/UgetCurl.c; sourceTree = "<group>"; };
+		E299BD1220E93ECD00FF908F /* UgetNode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetNode.c; path = uget/uget/UgetNode.c; sourceTree = "<group>"; };
+		E299BD1320E93ECD00FF908F /* UgetSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetSite.h; path = uget/uget/UgetSite.h; sourceTree = "<group>"; };
+		E299BD1420E93ECD00FF908F /* UgetPluginCurl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetPluginCurl.h; path = uget/uget/UgetPluginCurl.h; sourceTree = "<group>"; };
+		E299BD1520E93ECD00FF908F /* UgetNode-compare.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "UgetNode-compare.c"; path = "uget/uget/UgetNode-compare.c"; sourceTree = "<group>"; };
+		E299BD1620E93ECD00FF908F /* UgetApp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetApp.c; path = uget/uget/UgetApp.c; sourceTree = "<group>"; };
+		E299BD1720E93ECD00FF908F /* UgetPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetPlugin.h; path = uget/uget/UgetPlugin.h; sourceTree = "<group>"; };
+		E299BD1820E93ECD00FF908F /* UgetPluginAria2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetPluginAria2.c; path = uget/uget/UgetPluginAria2.c; sourceTree = "<group>"; };
+		E299BD1920E93ECD00FF908F /* UgetAria2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetAria2.h; path = uget/uget/UgetAria2.h; sourceTree = "<group>"; };
+		E299BD1A20E93ECD00FF908F /* UgetSequence.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetSequence.c; path = uget/uget/UgetSequence.c; sourceTree = "<group>"; };
+		E299BD1B20E93ECD00FF908F /* UgetSite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetSite.c; path = uget/uget/UgetSite.c; sourceTree = "<group>"; };
+		E299BD1C20E93ECD00FF908F /* UgetA2cf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetA2cf.c; path = uget/uget/UgetA2cf.c; sourceTree = "<group>"; };
+		E299BD1D20E93ECD00FF908F /* UgetApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetApp.h; path = uget/uget/UgetApp.h; sourceTree = "<group>"; };
+		E299BD1E20E93ECD00FF908F /* UgetRss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetRss.h; path = uget/uget/UgetRss.h; sourceTree = "<group>"; };
+		E299BD1F20E93ECE00FF908F /* UgetPluginAgent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetPluginAgent.c; path = uget/uget/UgetPluginAgent.c; sourceTree = "<group>"; };
+		E299BD2020E93ECE00FF908F /* UgetOption.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetOption.c; path = uget/uget/UgetOption.c; sourceTree = "<group>"; };
+		E299BD2120E93ECE00FF908F /* UgetA2cf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetA2cf.h; path = uget/uget/UgetA2cf.h; sourceTree = "<group>"; };
+		E299BD2220E93ECE00FF908F /* UgetPlugin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetPlugin.c; path = uget/uget/UgetPlugin.c; sourceTree = "<group>"; };
+		E299BD2320E93ECE00FF908F /* UgetFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetFiles.h; path = uget/uget/UgetFiles.h; sourceTree = "<group>"; };
+		E299BD2420E93ECE00FF908F /* UgetData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetData.h; path = uget/uget/UgetData.h; sourceTree = "<group>"; };
+		E299BD2520E93ECE00FF908F /* UgetPluginAria2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetPluginAria2.h; path = uget/uget/UgetPluginAria2.h; sourceTree = "<group>"; };
+		E299BD2620E93ECE00FF908F /* UgetData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetData.c; path = uget/uget/UgetData.c; sourceTree = "<group>"; };
+		E299BD2720E93ECE00FF908F /* UgetTask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetTask.c; path = uget/uget/UgetTask.c; sourceTree = "<group>"; };
+		E299BD2820E93ECE00FF908F /* UgetNode-filter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "UgetNode-filter.c"; path = "uget/uget/UgetNode-filter.c"; sourceTree = "<group>"; };
+		E299BD2920E93ECF00FF908F /* UgetHash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetHash.c; path = uget/uget/UgetHash.c; sourceTree = "<group>"; };
+		E299BD2A20E93ECF00FF908F /* UgetCurl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetCurl.h; path = uget/uget/UgetCurl.h; sourceTree = "<group>"; };
+		E299BD2B20E93ECF00FF908F /* UgetPluginMega.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetPluginMega.h; path = uget/uget/UgetPluginMega.h; sourceTree = "<group>"; };
+		E299BD2C20E93ECF00FF908F /* UgetPluginMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetPluginMedia.h; path = uget/uget/UgetPluginMedia.h; sourceTree = "<group>"; };
+		E299BD2D20E93ECF00FF908F /* UgetMedia.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetMedia.c; path = uget/uget/UgetMedia.c; sourceTree = "<group>"; };
+		E299BD2E20E93ECF00FF908F /* UgetPluginEmpty.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetPluginEmpty.c; path = uget/uget/UgetPluginEmpty.c; sourceTree = "<group>"; };
+		E299BD2F20E93ED000FF908F /* UgetRpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetRpc.c; path = uget/uget/UgetRpc.c; sourceTree = "<group>"; };
+		E299BD3020E93ED000FF908F /* UgetPluginEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetPluginEmpty.h; path = uget/uget/UgetPluginEmpty.h; sourceTree = "<group>"; };
+		E299BD3120E93ED000FF908F /* UgetRpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetRpc.h; path = uget/uget/UgetRpc.h; sourceTree = "<group>"; };
+		E299BD3220E93ED000FF908F /* UgetPluginAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetPluginAgent.h; path = uget/uget/UgetPluginAgent.h; sourceTree = "<group>"; };
+		E299BD3320E93ED000FF908F /* UgetPluginMedia.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = UgetPluginMedia.c; path = uget/uget/UgetPluginMedia.c; sourceTree = "<group>"; };
+		E299BD3420E93ED000FF908F /* UgetSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetSequence.h; path = uget/uget/UgetSequence.h; sourceTree = "<group>"; };
+		E299BD3520E93ED000FF908F /* UgetMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetMedia.h; path = uget/uget/UgetMedia.h; sourceTree = "<group>"; };
+		E299BD3620E93ED000FF908F /* UgetNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetNode.h; path = uget/uget/UgetNode.h; sourceTree = "<group>"; };
+		E299BD3720E93ED000FF908F /* UgetMedia-youtube.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "UgetMedia-youtube.c"; path = "uget/uget/UgetMedia-youtube.c"; sourceTree = "<group>"; };
+		E299BD3820E93ED100FF908F /* UgetHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetHash.h; path = uget/uget/UgetHash.h; sourceTree = "<group>"; };
+		E299BD3920E93ED100FF908F /* UgetTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UgetTask.h; path = uget/uget/UgetTask.h; sourceTree = "<group>"; };
+		E299BD5520E9405F00FF908F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +215,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E299BD5620E9405F00FF908F /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +239,12 @@
 		E299BC7820E8C7BB00FF908F = {
 			isa = PBXGroup;
 			children = (
+				E299BCB420E93E8100FF908F /* uget */,
 				E299BC8320E8C7BB00FF908F /* Anivia */,
 				E299BC9A20E8C7BB00FF908F /* AniviaTests */,
 				E299BCA520E8C7BB00FF908F /* AniviaUITests */,
 				E299BC8220E8C7BB00FF908F /* Products */,
+				E299BD5420E9405F00FF908F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +289,141 @@
 				E299BCA820E8C7BB00FF908F /* Info.plist */,
 			);
 			path = AniviaUITests;
+			sourceTree = "<group>";
+		};
+		E299BCB420E93E8100FF908F /* uget */ = {
+			isa = PBXGroup;
+			children = (
+				E299BCB620E93E9500FF908F /* uglib */,
+				E299BCB520E93E9000FF908F /* uget */,
+			);
+			name = uget;
+			sourceTree = "<group>";
+		};
+		E299BCB520E93E9000FF908F /* uget */ = {
+			isa = PBXGroup;
+			children = (
+				E299BD1C20E93ECD00FF908F /* UgetA2cf.c */,
+				E299BD2120E93ECE00FF908F /* UgetA2cf.h */,
+				E299BD1620E93ECD00FF908F /* UgetApp.c */,
+				E299BD1D20E93ECD00FF908F /* UgetApp.h */,
+				E299BD0F20E93ECC00FF908F /* UgetAria2.c */,
+				E299BD1920E93ECD00FF908F /* UgetAria2.h */,
+				E299BD1120E93ECC00FF908F /* UgetCurl.c */,
+				E299BD2A20E93ECF00FF908F /* UgetCurl.h */,
+				E299BD2620E93ECE00FF908F /* UgetData.c */,
+				E299BD2420E93ECE00FF908F /* UgetData.h */,
+				E299BD0D20E93ECC00FF908F /* UgetEvent.c */,
+				E299BD1020E93ECC00FF908F /* UgetEvent.h */,
+				E299BD0920E93ECC00FF908F /* UgetFiles.c */,
+				E299BD2320E93ECE00FF908F /* UgetFiles.h */,
+				E299BD2920E93ECF00FF908F /* UgetHash.c */,
+				E299BD3820E93ED100FF908F /* UgetHash.h */,
+				E299BD3720E93ED000FF908F /* UgetMedia-youtube.c */,
+				E299BD2D20E93ECF00FF908F /* UgetMedia.c */,
+				E299BD3520E93ED000FF908F /* UgetMedia.h */,
+				E299BD1520E93ECD00FF908F /* UgetNode-compare.c */,
+				E299BD2820E93ECE00FF908F /* UgetNode-filter.c */,
+				E299BD1220E93ECD00FF908F /* UgetNode.c */,
+				E299BD3620E93ED000FF908F /* UgetNode.h */,
+				E299BD2020E93ECE00FF908F /* UgetOption.c */,
+				E299BD0B20E93ECC00FF908F /* UgetOption.h */,
+				E299BD2220E93ECE00FF908F /* UgetPlugin.c */,
+				E299BD1720E93ECD00FF908F /* UgetPlugin.h */,
+				E299BD1F20E93ECE00FF908F /* UgetPluginAgent.c */,
+				E299BD3220E93ED000FF908F /* UgetPluginAgent.h */,
+				E299BD1820E93ECD00FF908F /* UgetPluginAria2.c */,
+				E299BD2520E93ECE00FF908F /* UgetPluginAria2.h */,
+				E299BD0A20E93ECC00FF908F /* UgetPluginCurl.c */,
+				E299BD1420E93ECD00FF908F /* UgetPluginCurl.h */,
+				E299BD2E20E93ECF00FF908F /* UgetPluginEmpty.c */,
+				E299BD3020E93ED000FF908F /* UgetPluginEmpty.h */,
+				E299BD3320E93ED000FF908F /* UgetPluginMedia.c */,
+				E299BD2C20E93ECF00FF908F /* UgetPluginMedia.h */,
+				E299BD0E20E93ECC00FF908F /* UgetPluginMega.c */,
+				E299BD2B20E93ECF00FF908F /* UgetPluginMega.h */,
+				E299BD2F20E93ED000FF908F /* UgetRpc.c */,
+				E299BD3120E93ED000FF908F /* UgetRpc.h */,
+				E299BD0C20E93ECC00FF908F /* UgetRss.c */,
+				E299BD1E20E93ECD00FF908F /* UgetRss.h */,
+				E299BD1A20E93ECD00FF908F /* UgetSequence.c */,
+				E299BD3420E93ED000FF908F /* UgetSequence.h */,
+				E299BD1B20E93ECD00FF908F /* UgetSite.c */,
+				E299BD1320E93ECD00FF908F /* UgetSite.h */,
+				E299BD2720E93ECE00FF908F /* UgetTask.c */,
+				E299BD3920E93ED100FF908F /* UgetTask.h */,
+			);
+			name = uget;
+			sourceTree = "<group>";
+		};
+		E299BCB620E93E9500FF908F /* uglib */ = {
+			isa = PBXGroup;
+			children = (
+				E299BCDD20E93EB100FF908F /* UgArray.c */,
+				E299BCBA20E93EAD00FF908F /* UgArray.h */,
+				E299BCE520E93EB200FF908F /* UgBuffer.c */,
+				E299BCDE20E93EB100FF908F /* UgBuffer.h */,
+				E299BCD520E93EB000FF908F /* UgData.c */,
+				E299BCD220E93EAF00FF908F /* UgData.h */,
+				E299BCDB20E93EB000FF908F /* UgDefine.h */,
+				E299BCDA20E93EB000FF908F /* UgEntry.c */,
+				E299BCCB20E93EAE00FF908F /* UgEntry.h */,
+				E299BCC520E93EAE00FF908F /* UgFileUtil.c */,
+				E299BCEC20E93EB200FF908F /* UgFileUtil.h */,
+				E299BCE420E93EB100FF908F /* UgGroupData.c */,
+				E299BCCF20E93EAF00FF908F /* UgGroupData.h */,
+				E299BCEA20E93EB200FF908F /* UgHtml.c */,
+				E299BCCA20E93EAE00FF908F /* UgHtml.h */,
+				E299BCE020E93EB100FF908F /* UgHtmlEntry.c */,
+				E299BCD620E93EB000FF908F /* UgHtmlEntry.h */,
+				E299BCE920E93EB200FF908F /* UgHtmlFilter.c */,
+				E299BCC820E93EAE00FF908F /* UgHtmlFilter.h */,
+				E299BCC620E93EAE00FF908F /* UgJson-custom.c */,
+				E299BCBB20E93EAD00FF908F /* UgJson-custom.h */,
+				E299BCC120E93EAE00FF908F /* UgJson.c */,
+				E299BCDF20E93EB100FF908F /* UgJson.h */,
+				E299BCBD20E93EAD00FF908F /* UgJsonFile.c */,
+				E299BCC320E93EAE00FF908F /* UgJsonFile.h */,
+				E299BCCE20E93EAF00FF908F /* UgJsonrpc.c */,
+				E299BCE720E93EB200FF908F /* UgJsonrpc.h */,
+				E299BCC220E93EAE00FF908F /* UgJsonrpcCurl.c */,
+				E299BCB920E93EAD00FF908F /* UgJsonrpcCurl.h */,
+				E299BCBC20E93EAD00FF908F /* UgJsonrpcSocket.c */,
+				E299BCE620E93EB200FF908F /* UgJsonrpcSocket.h */,
+				E299BCD820E93EB000FF908F /* UgList.c */,
+				E299BCCD20E93EAF00FF908F /* UgList.h */,
+				E299BCEB20E93EB200FF908F /* UgNode.c */,
+				E299BCD920E93EB000FF908F /* UgNode.h */,
+				E299BCB720E93EAD00FF908F /* UgOption.c */,
+				E299BCCC20E93EAE00FF908F /* UgOption.h */,
+				E299BCC420E93EAE00FF908F /* UgRegistry.c */,
+				E299BCD020E93EAF00FF908F /* UgRegistry.h */,
+				E299BCD720E93EB000FF908F /* UgSLink.c */,
+				E299BCD120E93EAF00FF908F /* UgSLink.h */,
+				E299BCBF20E93EAE00FF908F /* UgSocket.c */,
+				E299BCDC20E93EB100FF908F /* UgSocket.h */,
+				E299BCE220E93EB100FF908F /* UgStdio.c */,
+				E299BCED20E93EB300FF908F /* UgStdio.h */,
+				E299BCE120E93EB100FF908F /* UgString.c */,
+				E299BCE820E93EB200FF908F /* UgString.h */,
+				E299BCC020E93EAE00FF908F /* UgThread.c */,
+				E299BCBE20E93EAD00FF908F /* UgThread.h */,
+				E299BCC720E93EAE00FF908F /* UgUri.c */,
+				E299BCD320E93EAF00FF908F /* UgUri.h */,
+				E299BCE320E93EB100FF908F /* UgUtil.c */,
+				E299BCB820E93EAD00FF908F /* UgUtil.h */,
+				E299BCC920E93EAE00FF908F /* UgValue.c */,
+				E299BCD420E93EB000FF908F /* UgValue.h */,
+			);
+			name = uglib;
+			sourceTree = "<group>";
+		};
+		E299BD5420E9405F00FF908F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E299BD5520E9405F00FF908F /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +558,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E299BD4D20E93ED100FF908F /* UgetNode-filter.c in Sources */,
+				E299BCEF20E93EB300FF908F /* UgJsonrpcSocket.c in Sources */,
+				E299BD4920E93ED100FF908F /* UgetOption.c in Sources */,
+				E299BD0220E93EB300FF908F /* UgStdio.c in Sources */,
+				E299BCFF20E93EB300FF908F /* UgArray.c in Sources */,
+				E299BD4F20E93ED100FF908F /* UgetMedia.c in Sources */,
+				E299BD4520E93ED100FF908F /* UgetSequence.c in Sources */,
+				E299BCF320E93EB300FF908F /* UgJson.c in Sources */,
+				E299BD4420E93ED100FF908F /* UgetPluginAria2.c in Sources */,
+				E299BD3F20E93ED100FF908F /* UgetAria2.c in Sources */,
+				E299BD3C20E93ED100FF908F /* UgetRss.c in Sources */,
+				E299BCF720E93EB300FF908F /* UgJson-custom.c in Sources */,
+				E299BD4B20E93ED100FF908F /* UgetData.c in Sources */,
+				E299BD4E20E93ED100FF908F /* UgetHash.c in Sources */,
+				E299BCEE20E93EB300FF908F /* UgOption.c in Sources */,
+				E299BD4320E93ED100FF908F /* UgetApp.c in Sources */,
+				E299BD0720E93EB300FF908F /* UgHtml.c in Sources */,
+				E299BCFB20E93EB300FF908F /* UgData.c in Sources */,
+				E299BCF620E93EB300FF908F /* UgFileUtil.c in Sources */,
 				E299BC8620E8C7BB00FF908F /* AppDelegate.m in Sources */,
+				E299BD3D20E93ED100FF908F /* UgetEvent.c in Sources */,
+				E299BCF820E93EB300FF908F /* UgUri.c in Sources */,
+				E299BD0320E93EB300FF908F /* UgUtil.c in Sources */,
+				E299BD4020E93ED100FF908F /* UgetCurl.c in Sources */,
+				E299BD4120E93ED100FF908F /* UgetNode.c in Sources */,
+				E299BCFA20E93EB300FF908F /* UgJsonrpc.c in Sources */,
+				E299BCF120E93EB300FF908F /* UgSocket.c in Sources */,
+				E299BCF420E93EB300FF908F /* UgJsonrpcCurl.c in Sources */,
+				E299BD3A20E93ED100FF908F /* UgetFiles.c in Sources */,
+				E299BD0120E93EB300FF908F /* UgString.c in Sources */,
+				E299BCF020E93EB300FF908F /* UgJsonFile.c in Sources */,
+				E299BCFE20E93EB300FF908F /* UgEntry.c in Sources */,
+				E299BD5020E93ED100FF908F /* UgetPluginEmpty.c in Sources */,
+				E299BCF920E93EB300FF908F /* UgValue.c in Sources */,
+				E299BCFC20E93EB300FF908F /* UgSLink.c in Sources */,
+				E299BD5320E93ED100FF908F /* UgetMedia-youtube.c in Sources */,
 				E299BC9120E8C7BB00FF908F /* main.m in Sources */,
 				E299BC8920E8C7BB00FF908F /* Anivia.xcdatamodeld in Sources */,
+				E299BCF520E93EB300FF908F /* UgRegistry.c in Sources */,
+				E299BD4720E93ED100FF908F /* UgetA2cf.c in Sources */,
+				E299BCFD20E93EB300FF908F /* UgList.c in Sources */,
+				E299BD5120E93ED100FF908F /* UgetRpc.c in Sources */,
+				E299BD0420E93EB300FF908F /* UgGroupData.c in Sources */,
+				E299BD4A20E93ED100FF908F /* UgetPlugin.c in Sources */,
+				E299BD0520E93EB300FF908F /* UgBuffer.c in Sources */,
+				E299BD3E20E93ED100FF908F /* UgetPluginMega.c in Sources */,
+				E299BD4220E93ED100FF908F /* UgetNode-compare.c in Sources */,
+				E299BD4620E93ED100FF908F /* UgetSite.c in Sources */,
+				E299BD5220E93ED100FF908F /* UgetPluginMedia.c in Sources */,
+				E299BD3B20E93ED100FF908F /* UgetPluginCurl.c in Sources */,
+				E299BD4C20E93ED100FF908F /* UgetTask.c in Sources */,
+				E299BCF220E93EB300FF908F /* UgThread.c in Sources */,
+				E299BD0620E93EB300FF908F /* UgHtmlFilter.c in Sources */,
+				E299BD0020E93EB300FF908F /* UgHtmlEntry.c in Sources */,
+				E299BD4820E93ED100FF908F /* UgetPluginAgent.c in Sources */,
+				E299BD0820E93EB300FF908F /* UgNode.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +701,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					USE_OPENSSL,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -358,9 +709,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/openssl/include",
+					"$(PROJECT_DIR)/nghttp2/include",
+					"$(PROJECT_DIR)/curl/include",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lssl",
+					"-lcrypto",
+					"-lcurl",
+					"-lnghttp2",
+				);
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -401,14 +764,27 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = USE_OPENSSL;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/openssl/include",
+					"$(PROJECT_DIR)/nghttp2/include",
+					"$(PROJECT_DIR)/curl/include",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-lssl",
+					"-lcrypto",
+					"-lcurl",
+					"-lnghttp2",
+				);
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -421,8 +797,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = YK5UT33C26;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/openssl/include",
+					"$(PROJECT_DIR)/nghttp2/include",
+					"$(PROJECT_DIR)/curl/include",
+					"$(PROJECT_DIR)/uget/uget",
+					"$(PROJECT_DIR)/uget/uglib",
+				);
 				INFOPLIST_FILE = Anivia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/openssl/lib/macOS",
+					"$(PROJECT_DIR)/nghttp2/lib/macOS",
+					"$(PROJECT_DIR)/curl/lib/macOS",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.horoscope.Anivia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -436,8 +824,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = YK5UT33C26;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/openssl/include",
+					"$(PROJECT_DIR)/nghttp2/include",
+					"$(PROJECT_DIR)/curl/include",
+					"$(PROJECT_DIR)/uget/uget",
+					"$(PROJECT_DIR)/uget/uglib",
+				);
 				INFOPLIST_FILE = Anivia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/openssl/lib/macOS",
+					"$(PROJECT_DIR)/nghttp2/lib/macOS",
+					"$(PROJECT_DIR)/curl/lib/macOS",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.horoscope.Anivia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
