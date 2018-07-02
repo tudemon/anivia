@@ -89,6 +89,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B067386120E9FB2400909E0A /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = uget/config.h; sourceTree = "<group>"; };
 		E299BC8120E8C7BB00FF908F /* Anivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E299BC8420E8C7BB00FF908F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E299BC8520E8C7BB00FF908F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -297,6 +298,7 @@
 		E299BCB420E93E8100FF908F /* uget */ = {
 			isa = PBXGroup;
 			children = (
+				B067386120E9FB2400909E0A /* config.h */,
 				E299BCB620E93E9500FF908F /* uglib */,
 				E299BCB520E93E9000FF908F /* uget */,
 			);
@@ -705,7 +707,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
-					USE_OPENSSL,
+					HAVE_CONFIG_H,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -717,6 +719,7 @@
 					"$(PROJECT_DIR)/openssl/include",
 					"$(PROJECT_DIR)/nghttp2/include",
 					"$(PROJECT_DIR)/curl/include",
+					"$(PROJECT_DIR)/uget",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
@@ -768,7 +771,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = USE_OPENSSL;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -779,6 +782,7 @@
 					"$(PROJECT_DIR)/openssl/include",
 					"$(PROJECT_DIR)/nghttp2/include",
 					"$(PROJECT_DIR)/curl/include",
+					"$(PROJECT_DIR)/uget",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
@@ -800,13 +804,14 @@
 				CODE_SIGN_ENTITLEMENTS = Anivia/Anivia.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = YK5UT33C26;
+				DEVELOPMENT_TEAM = RS8CUBJZ6Y;
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/openssl/include",
 					"$(PROJECT_DIR)/nghttp2/include",
 					"$(PROJECT_DIR)/curl/include",
 					"$(PROJECT_DIR)/uget/uget",
 					"$(PROJECT_DIR)/uget/uglib",
+					"$(PROJECT_DIR)/uget",
 				);
 				INFOPLIST_FILE = Anivia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -827,13 +832,14 @@
 				CODE_SIGN_ENTITLEMENTS = Anivia/Anivia.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = YK5UT33C26;
+				DEVELOPMENT_TEAM = RS8CUBJZ6Y;
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/openssl/include",
 					"$(PROJECT_DIR)/nghttp2/include",
 					"$(PROJECT_DIR)/curl/include",
 					"$(PROJECT_DIR)/uget/uget",
 					"$(PROJECT_DIR)/uget/uglib",
+					"$(PROJECT_DIR)/uget",
 				);
 				INFOPLIST_FILE = Anivia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
